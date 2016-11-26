@@ -1,0 +1,86 @@
+body {
+  display: block !important;
+}
+
+.wrapper {
+  margin-top: 10px;
+  height: 500px;
+}
+.prev-arrow div, .next-arrow div {
+  width: 100%;
+  height: 100%;
+  padding: 0px !important;
+
+}
+.prev-arrow:hover, .next-arrow:hover {
+  background: rgb(181, 180, 173);
+  cursor: pointer;
+}
+.prev-arrow{
+  margin-right: 9px;
+}
+.next-arrow {
+  margin-left: 9px;
+}
+.next-arrow p, .prev-arrow p {
+  width: 30px;
+  height: 30px;
+  border-top: 10px solid black;
+  border-right: 10px solid black;
+  margin-top: 250%;
+
+}
+.next-arrow p {
+  transform: rotate(45deg);
+}
+.prev-arrow p {
+  transform: rotate(-135deg);
+}
+.prev-arrow, .next-arrow, .image-area {
+  height: 100%;
+  width: 100%;
+}
+.image-area div {
+  position: relative;
+}
+.image-area .img-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.79);
+  opacity: .6;
+  font-size: x-large;
+  color: white;
+  padding: 14px;
+  width: 104%;
+  margin: 0 !important;
+  margin-left: -15px !important;
+  border-radius: 9px;
+}
+.slide-position div span {
+  margin-right: 2em;
+  margin-top: 3px;
+  color: white;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  padding: 7px;
+  display: inline-block;
+  border: 1px solid black;
+
+}
+.slide-position div span:hover {
+  cursor: pointer;
+  background: rgb(45, 51, 46);
+}
+.current-slide {
+    background: rgb(45, 51, 46);
+}
+.slider-img {
+  width: 779px;
+  height:499px;
+  object-fit: cover;
+  margin-left: -15px !important;
+  border-radius: 9px;
+  cursor: pointer;
+}
